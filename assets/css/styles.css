@@ -393,7 +393,14 @@ img {
 }
 
 /*=============== SCROLL BAR ===============*/
+::-webkit-scrollbar{
+  width: .6rem;
+  background-color: hsl(0, 0%, 15%);
+}
 
+::-webkit-scrollbar-thumb{
+  background-color: hsl(0, 0%, 30%);
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
